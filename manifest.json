@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "MegaHater",
+  "description": "Hates everyone and everything",
+  "version": "0.0.221",
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
+  "icons": {
+    "128": "128.png"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "tabs",
+    "<all_urls>",
+    "https://verse.aavegotchi.com/"
+  ],
+  "background": {
+    "scripts": ["app.js"]
+  }
+}
